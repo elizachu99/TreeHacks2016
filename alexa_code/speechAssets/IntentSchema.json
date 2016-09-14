@@ -1,0 +1,93 @@
+{
+  "intents": [
+    {
+      "intent": "AddPlayerIntent",
+      "slots": [
+        {
+          "name": "RecipeName",
+          "type": "LIST_OF_PLAYER_NAMES"
+        }
+      ]
+    },
+    {
+      "intent": "RateLastIntent",
+      "slots": [
+        {
+          "name": "RatingValue",
+          "type": "LIST_OF_RATING_VALUES"
+        }
+      ]
+    },
+    {
+      "intent": "RateSpecificIntent",
+      "slots": [
+        {
+          "name": "RatingValue",
+          "type": "LIST_OF_RATING_VALUES"
+        },
+        {
+          "name": "RecipeName",
+          "type": "LIST_OF_PLAYER_NAMES"
+        }
+      ]
+    },
+    {
+      "intent": "NextStepIntent"
+    },
+    {
+      "intent": "RepeatStepIntent"
+    },
+    {
+      "intent": "PreviousStepIntent"
+    },
+    {
+      "intent": "AskCaloriesIntent"
+    },
+    {
+      "intent": "AskNumServingsIntent"
+    },
+    {
+      "intent": "AskRatingIntent"
+    },
+    {
+      "intent": "AddScoreIntent",
+      "slots": [
+        {
+          "name": "RecipeName",
+          "type": "LIST_OF_PLAYER_NAMES"
+        },
+        {
+          "name": "ScoreNumber",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "ResetPlayersIntent"
+    },
+    {
+      "intent": "NewRecipeIntent",
+      "slots": [
+        {
+          "name": "RecipeName",
+          "type": "LIST_OF_PLAYER_NAMES"
+        }
+      ]
+    },
+    {
+      "intent": "ListIngredientsIntent"
+    },
+    {
+      "intent": "TellScoresIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
